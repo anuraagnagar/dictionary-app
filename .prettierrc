@@ -7,5 +7,6 @@
     "tabWidth": 4,
     "trailingComma": "es5",
     "endOfLine": "auto",
-    "semi": true
+    "semi": true,
+    "singleAttributePerLine": true
 }
