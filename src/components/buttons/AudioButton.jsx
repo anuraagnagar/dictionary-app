@@ -7,9 +7,11 @@ const AudioButton = ({ src }) => {
 
     useEffect(() => {
         src.map((item) => {
-            if (item.audio && String(item.audio).endsWith("uk.mp3")) {
+            if (
+                (item.audio && String(item.audio).endsWith("uk.mp3")) ||
+                String(item.audio).endsWith("us.mp3")
+            ) {
                 setAudioSrc(item.audio);
-                return;
             }
         });
     }, [audioSrc]);
