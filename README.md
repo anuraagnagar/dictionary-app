@@ -1,12 +1,12 @@
 ## React Dictionary App
 
-A simple React-based dictionary app to look up word definitions using DictionaryApi and design with TailwindCSS.
+A simple React-based dictionary app to look up word definitions using DictionaryApi and design with Tailwind CSS.
 
 ### Screenshots & Live Demo
 
-You can see a live demo of this Application by clicking [HERE](https://dictionary-app-woad-gamma.vercel.app/).
+You can see a live demo of this Application by clicking [HERE](https://dictionary-reactjs-app.vercel.app/).
 
-![Screenshot](https://github.com/anuraagnagar/dictionary-app/blob/main/content/screenshots/Imageshow.png)
+![Screenshot](https://github.com/anuraagnagar/dictionary-app/blob/main/content/screenshots/Imageshow.jpg)
 
 ### Prerequisites
 
@@ -14,7 +14,7 @@ Before you begin, ensure you have met the following requirements:
 
 -   Node.js: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
--   Git: Ensure you have Node.js installed. You can download it from [git-scm.com](https://git-scm.com/downloads)
+-   Git: Ensure you have Git installed. You can download it from [git-scm.com](https://git-scm.com/downloads)
 
 ### Installation & Setup Locally
 
@@ -45,3 +45,7 @@ npm run dev
 ```
 
 You can now access this application by navigating to http://localhost:5173/.
+
+### Author
+
+[Anurag Nagar](mailto:nagaranurag1999@gmail.com)
