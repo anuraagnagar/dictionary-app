@@ -6,7 +6,7 @@ const AudioButton = ({ src }) => {
     const [audioSrc, setAudioSrc] = useState("");
 
     useEffect(() => {
-        src.map((item) => {
+        src.find((item) => {
             if (
                 (item.audio && String(item.audio).endsWith("uk.mp3")) ||
                 String(item.audio).endsWith("us.mp3")
@@ -17,17 +17,18 @@ const AudioButton = ({ src }) => {
     }, [audioSrc]);
 
     const playAudio = async () => {
-        let audio = document.getElementById("audioPlayer");
-        await audio.play();
+        try {
+            let audio = new Audio(audioSrc);
+            await audio.play();
+        } catch (error) {
+            console.error("Something wen't wront playing audio.");
+        }
     };
 
     return (
         <div
             className="h-12 w-12 md:h-16 md:w-16 p-3 bg-pink-700 rounded-full scale-100 active:scale-95 ease-in-out duration-300 mt-2"
             onClick={playAudio}>
-            <audio
-                id="audioPlayer"
-                src={audioSrc}></audio>
             <svg className="w-full">
                 <image
                     href={SoundIcon}
