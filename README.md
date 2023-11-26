@@ -4,17 +4,17 @@ A simple React-based dictionary app to look up word definitions using Dictionary
 
 ### Screenshots & Live Demo
 
-You can see a live demo of this Application by clicking [HERE]().
+You can see a live demo of this Application by clicking [HERE](https://dictionary-app-woad-gamma.vercel.app/).
 
-
+![Screenshot](https://github.com/anuraagnagar/dictionary-app/blob/main/content/screenshots/Imageshow.png)
 
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
+-   Node.js: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
-- Git: Ensure you have Node.js installed. You can download it from [git-scm.com](https://git-scm.com/downloads)
+-   Git: Ensure you have Node.js installed. You can download it from [git-scm.com](https://git-scm.com/downloads)
 
 ### Installation & Setup Locally
 
