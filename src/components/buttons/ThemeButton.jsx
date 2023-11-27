@@ -10,10 +10,8 @@ const ThemeButton = () => {
     const themeChange = () => {
         if (DARK) {
             theme.setMode("light");
-            theme.setThemeClass();
         } else {
             theme.setMode("dark");
-            theme.setThemeClass();
         }
     };
 

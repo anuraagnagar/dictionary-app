@@ -19,7 +19,7 @@ const ThemeContextProvider = ({ children }) => {
         }
     };
 
-    useEffect(() => setThemeClass());
+    useEffect(() => setThemeClass(), [mode]);
 
     const value = {
         mode,
