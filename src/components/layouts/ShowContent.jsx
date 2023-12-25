@@ -27,7 +27,7 @@ const ShowContent = ({ data }) => {
                             {meaning?.partOfSpeech}
                         </h3>
                         <p className="text-xl lg:text-2xl mb-3">Meaning</p>
-                        <ul className="max-w-md space-y-2 text-gray-700 dark:text-gray-200">
+                        <ul className="space-y-2 text-gray-700 dark:text-gray-200">
                             {meaning?.definitions.map((word, wordIndex) => {
                                 return (
                                     <li key={wordIndex}>
@@ -57,6 +57,7 @@ const ShowContent = ({ data }) => {
                 <p className="font-semibold">{data.license?.name}</p>
                 <a
                     href={data.license?.url}
+                    target="_blank"
                     className="cursor-pointer underline text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:text-gray-400">
                     {data.license?.url} &#8690;
                 </a>
@@ -71,6 +72,7 @@ const ShowContent = ({ data }) => {
                             <a
                                 key={urlIndex}
                                 href={url}
+                                target="_blank"
                                 className="cursor-pointer underline text-gray-500 hover:text-gray-700 dark:text-gray-400">
                                 {url} &#8690;
                             </a>
